@@ -1,7 +1,0 @@
-CREATE TABLE IF NOT EXISTS todos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    weekday VARCHAR(20) NOT NULL,
-    priority VARCHAR(10),
-    completed BOOLEAN
-);
