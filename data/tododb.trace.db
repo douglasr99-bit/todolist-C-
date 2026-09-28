@@ -1,0 +1,9 @@
+2026-09-14 16:41:09.500616-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOS" already exists; SQL statement:
+CREATE TABLE todos ( id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, weekday VARCHAR(20) NOT NULL, priority VARCHAR(10), completed BOOLEAN ) [42101-240]
+2026-09-14 16:41:49.227086-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOS" already exists; SQL statement:
+CREATE TABLE todos ( id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, weekday VARCHAR(20) NOT NULL, priority VARCHAR(10), completed BOOLEAN ) [42101-240]
+2026-09-14 16:44:47.351984-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOS" already exists; SQL statement:
+CREATE TABLE todos ( id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, weekday VARCHAR(20) NOT NULL, priority VARCHAR(10), completed BOOLEAN ) [42101-240]
